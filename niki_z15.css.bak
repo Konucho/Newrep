@@ -1,0 +1,12 @@
+p 
+{
+color:#66AF5E;
+font-size: 20pt;
+}
+
+
+body 
+{
+color: rgb(150%,74%,225%);
+font-size: 30pt;
+}

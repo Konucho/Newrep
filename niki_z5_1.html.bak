@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>styl importowany</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- importowany -->
+ <style>
+ @import url("niki_z5_1 _kod.css");
+ </style>
+</head>
+<body bgcolor="grey">
+ <h1><p>importowany arkusz</p></h1>
+ <p>Nikitsenka, Programować możemy w Notatniku lub Notepad ++</p>
+ </body>
+</html>

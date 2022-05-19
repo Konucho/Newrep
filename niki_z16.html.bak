@@ -1,0 +1,55 @@
+<html>
+<style>
+
+
+h1 
+{ 
+border: 3px solid black; 
+}
+
+
+</style>
+<head>
+
+
+
+
+
+</head>
+
+<body>
+<ol>
+<li>Opis znacznika DIV</li>
+<h1>Div jest to nic innego jak pojemnik. Pojemnik, któremu możemy nadać cechy poprzez CSS.</h1>
+
+<li>Opis znacznika SPAN</li>
+<h1>SPAN element jest podstawowym wbudowanym kontenerem dla frazowania treści, który z natury nie reprezentuje niczego. Może być używany do grupowania tekstu w celu stylizacji (używa atrybutu class lub id ), lub z powodu posiadania takich samych atrybutów, takich jak lang </h1>
+
+<li>Różnica między znacznikami DIV i SPAN.</li>
+<h1>div jest to element blokowy, którego szerokość wynosi 100% natomiast tag span jest to element inline który można np. wstawić wewnątrz tekstu.</h1>
+
+<li>Opisz oraz wymień elementy/tagi: 1)liniowe 2)blokowe 3)blokowo-liniowe.</li>
+<h1>liniowe – span, em, strong<br>
+<br>
+Elementy liniowe nie spowodują przejścia do nowej linii, będą wyświetlać się obok siebie, w
+jednej linii. Domyślnie, elementom liniowym przeglądarka ustawia właściwość "display" na
+"inline".<br>
+<br>
+ blokowe – div, p, article<br>
+ <br>
+ Elementy blokowe z kolei będą zachowywać się jak pudełka, które ustawiasz jeden pod
+drugim, a więc nigdy nie wyświetlą się obok siebie. Domyślnie, elementom blokowym
+przeglądarka ustawia właściwość "display" na "block"<br>
+<br>
+ liniowo-blokowe – input, textarea<br>
+ <br>
+ Elementy liniowo-blokowe z kolei będą zachowywać się jak liniowe, jeśli chodzi o
+położenie (a więc wyświetlać będą się obok siebie), natomiast różnią się od nich tym, że
+możesz nadać im różne wielkości. Ma to sens, np. textarea wyświetla się jako duży
+prostokąt i zdecydowanie "wychodzi" poza pojedynczą linijkę tekstu. Domyślnie, elementom
+liniowo blokowym przeglądarka ustawia właściwość "display" na "inline-block".<br></h1>
+</ol>
+</body>
+
+</html>
+<!--Nikitsenka Kanstantsin
