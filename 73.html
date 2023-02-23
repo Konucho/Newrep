@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<script language="JavaScript">
+
+let a_nik = prompt("podaj nazwsisko: ");
+
+let b_nik = prompt("podaj imie: ");
+
+let a = a_nik.length;
+
+let b = b_nik.length;
+
+for (i = 1; i <= a; i++) {
+    for (j = 1; j <= b; j++) {
+        if (i == 1 || i == a || j == 1 || j == b) {
+            document.write("*");
+        } else {
+            document.write("&nbsp ");
+        }
+    }
+    document.write("<br>");
+}
+
+
+</script>
+</head>
+<body>
+</body>
+</html>

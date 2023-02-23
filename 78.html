@@ -1,0 +1,26 @@
+<html>
+    <meta charset="utf-8">
+<body>
+<script language="JavaScript">
+
+    let liczba1 = prompt("Podaj pierwsza liczbe: ");
+
+    let liczba2 = prompt("Podaj druga liczbe: ");
+
+   
+
+    if (liczba1 < liczba2) {
+        for (let i = liczba1; i <= liczba2; i++) {
+            document.write("<font color=green size=12px>" + i + "</font>"+"<br>");
+        }
+    }  else if (liczba1 = liczba2) {
+                window.alert("brak obliczeń");
+        } else {
+        for (let i = liczba1; i >= liczba2; i--) {
+            document.write("<font color=blue size=12px>" + i + "</font>"+"<br>");
+        }
+    }
+  
+</script>
+</body>
+</html>

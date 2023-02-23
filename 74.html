@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<script language="JavaScript">
+
+let l1_t_nik = prompt("podaj liczbe od 20 do 60: ");
+
+let l2_t_nik = prompt("podaj iczbe od 20 do 60: ");
+
+let pocz_nik = prompt("podaj początkową wielkość tekstu: ");
+
+let tekst_nik = prompt("napisz dowolny tekst: ");
+
+if (l1_t_nik < l2_t_nik) {
+    for (let i = pocz_nik; i<=95; i+=5) {
+        document.write("<p style=\"font-size:"+i+"px; color: black;\"><br>"+tekst_nik+"<br></p>");
+    }    
+} else {
+    for (let i=pocz_nik;i>=5;i-=5) {
+        document.write("<p style=\"font-size:"+i+"px; color: black;\"><br>"+tekst_nik+"<br></p>");
+    }
+        
+}
+
+</script>
+</head>
+<body>
+</body>
+</html>
